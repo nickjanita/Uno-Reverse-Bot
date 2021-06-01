@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const { MessageAttachment } = require('discord.js');
-
+const token ="ENTER-TOKEN-HERE"
 const client = new Discord.Client();
 
 client.once('ready', message =>{
@@ -35,4 +35,4 @@ client.on('message', message=> {
         console.log("Uno Sent!");
     }
 })
-client.login('ODQ3NjIyNTQ5MzM1ODM0NjU1.YLAwAw.6WNJbsjKxwIr_if5_3-wcns7OfM');
+client.login(token);
